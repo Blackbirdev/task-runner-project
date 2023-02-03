@@ -255,6 +255,12 @@ footer i {
   .splash-inner {
     padding-top: 80px;
   }
+  footer p {
+    padding-left: 125px;
+  }
+  footer ul {
+    padding-left: 155px;
+  }
 }
 
 @media (max-width: 1420px) {
