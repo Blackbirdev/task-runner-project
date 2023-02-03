@@ -6,6 +6,7 @@ $font-text: 'Ubuntu', sans-serif;
 $color-one: #ffff;
 $color-two: #000;
 $color-three: #FCD137;
+$color-four: #838383;
 
 
 
@@ -17,6 +18,11 @@ $color-three: #FCD137;
 *::after {
     box-sizing: border-box;
     margin: 0;
+}
+
+section {
+    min-height: 380px;
+    padding: 96px 0;
 }
 
 // Navigation
@@ -60,7 +66,7 @@ $color-three: #FCD137;
     position: relative;
     padding: 0 20px;
     margin: 0 auto;
-    height: 800px;
+    height: 605px;
 }
 
 .splash-inner {
@@ -87,25 +93,69 @@ $color-three: #FCD137;
         font-weight: 700;
         margin: 30px 0;
         letter-spacing: 3px;
+        padding: 0 11px 0 0;
+    }
+
+    .btn {
+        display: inline-block;
+        background: $color-three;
+        color: $color-one;
+        min-width: 160px;
+        margin: 26px auto 0 auto;
+        padding: 23px 56px;
+        border-radius: 5px;
+        font-size: 17px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        background-position: 100% 0;
+        background-size: 300%;
+        font-family: $font-text;
+        font-weight: 700;
+        word-spacing: 2px;
     }
 }
 
-.btn {
-    display: inline-block;
-    background: $color-three;
-    color: $color-one;
-    min-width: 160px;
-    margin: 26px auto 0 auto;
-    padding: 20px 60px;
-    border-radius: 5px;
-    font-size: 17px;
+// Services
+
+.services {
     text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    background-position: 100% 0;
-    background-size: 300%;
-    font-family: $font-text;
-    font-weight: 700;
-    word-spacing: 2px;
+    padding: 110px 0;
+
+    h3 {
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: $font-text;
+        padding: 0 0 10px 0;
+    }
+
+    p {
+        color: $color-four;
+    }
+
+    .box {
+        padding: 75px 20px;
+
+        i {
+            font-size: 40px;
+            padding: 15px 15px;
+            border: 3px solid $color-three;
+            border-radius: 50%;
+            color: $color-three;
+        }
+
+        h3 {
+            font-size: 18px;
+            padding: 20px 0;
+            text-transform: none;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            font-size: 15px;
+            color: $color-four;
+        }
+
+    }
 }

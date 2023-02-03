@@ -6,6 +6,11 @@
   margin: 0;
 }
 
+section {
+  min-height: 380px;
+  padding: 96px 0;
+}
+
 .navigation {
   padding: 40px 0;
 }
@@ -42,7 +47,7 @@
   position: relative;
   padding: 0 20px;
   margin: 0 auto;
-  height: 800px;
+  height: 605px;
 }
 
 .splash-inner {
@@ -70,15 +75,16 @@
   font-weight: 700;
   margin: 30px 0;
   letter-spacing: 3px;
+  padding: 0 11px 0 0;
 }
 
-.btn {
+.splash-inner .btn {
   display: inline-block;
   background: #FCD137;
   color: #ffff;
   min-width: 160px;
   margin: 26px auto 0 auto;
-  padding: 20px 60px;
+  padding: 23px 56px;
   border-radius: 5px;
   font-size: 17px;
   text-align: center;
@@ -90,5 +96,45 @@
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   word-spacing: 2px;
+}
+
+.services {
+  text-align: center;
+  padding: 110px 0;
+}
+
+.services h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0 0 10px 0;
+}
+
+.services p {
+  color: #838383;
+}
+
+.services .box {
+  padding: 75px 20px;
+}
+
+.services .box i {
+  font-size: 40px;
+  padding: 15px 15px;
+  border: 3px solid #FCD137;
+  border-radius: 50%;
+  color: #FCD137;
+}
+
+.services .box h3 {
+  font-size: 18px;
+  padding: 20px 0;
+  text-transform: none;
+  letter-spacing: 0.5px;
+}
+
+.services .box p {
+  font-size: 15px;
+  color: #838383;
 }
 /*# sourceMappingURL=style.css.map */
