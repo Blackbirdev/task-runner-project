@@ -1,3 +1,94 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
 
+.navigation {
+  padding: 40px 0;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.navigation p {
+  font-size: 30px;
+  color: #FCD137;
+  font-family: "Great Vibes", cursive;
+}
+
+.navigation ul {
+  margin: 0 0 0 5px;
+  padding: 0;
+  list-style-type: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navigation li {
+  margin-right: 36px;
+  position: relative;
+  display: inline-block;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+.splash {
+  background-image: url("https://images.pexels.com/photos/7989742/pexels-photo-7989742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 800px;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffff;
+}
+
+.splash-inner h2 {
+  text-transform: capitalize;
+  font-weight: 300;
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+}
+
+.splash-inner h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  margin: 30px 0;
+  letter-spacing: 3px;
+}
+
+.btn {
+  display: inline-block;
+  background: #FCD137;
+  color: #ffff;
+  min-width: 160px;
+  margin: 26px auto 0 auto;
+  padding: 20px 60px;
+  border-radius: 5px;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-position: 100% 0;
+  background-size: 300%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  word-spacing: 2px;
+}
+/*# sourceMappingURL=style.css.map */
